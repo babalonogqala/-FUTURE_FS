@@ -1,0 +1,36 @@
+.marquee-wrap {
+  background: var(--yellow);
+  padding: 1.2rem 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee-track {
+  display: inline-flex;
+  animation: marquee 22s linear infinite;
+}
+
+.marquee-item {
+  font-family: var(--font-head);
+  font-size: 1.8rem;
+  color: var(--black);
+  letter-spacing: 2px;
+  padding: 0 3rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.marquee-item i {
+  font-size: 1.4rem;
+  opacity: 0.4;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
