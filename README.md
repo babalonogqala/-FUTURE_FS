@@ -141,15 +141,8 @@ sizwe-express/
 
 ## How to Run
 
-Just open `index.html` in any browser — no build step or server needed.
+Just open `index.html` in any browser — no build step or use live server (recomended).
 
-## How to Deploy Free
-
-1. Go to [netlify.com](https://netlify.com)
-2. Drag and drop the entire `sizwe-express` folder
-3. Live in 60 seconds
-
----
 
 ## 📬 Contact
 
